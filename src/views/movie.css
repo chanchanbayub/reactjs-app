@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+/* .home{
+    width: 100%;
+    padding: 0 20px;
+} */
+.poster{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post{
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+
+

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.search-form{
+    padding: 10px 0;
+}
+.form-data{
+    margin-top: 10px;
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+    
+    
+}
+.form-data input{
+    width: 80%;
+    height: 40px;
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+    text-align: center;
+}
+.seacrh{
+    background-color: white;
+    border: 1px solid lightseagreen;
+    height: 40px;
+    border-left:0 ;
+    border-radius: 10px;
+    color: gray;
+    cursor: pointer;
+    width: 20%;
+}
+.seacrh:hover{
+    background-color: lightseagreen;
+    transition: 1s;
+    color: white;
+}
+@media(max-width:600px){
+    .seacrh{
+        position: absolute;
+       
+    }
+    .form-data{
+        width: 80%;
+    }
+    .form-data input{
+        width: 80%;
+        margin:0 auto
+       
+    }
+}
